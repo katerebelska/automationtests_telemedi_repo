@@ -16,5 +16,5 @@ test('As a user i want to get an prescription', async ({ page }) => {
     await page.click(makePrescriptionConsultationPageElements.searchInput);
     await page.fill(makePrescriptionConsultationPageElements.searchInput, testVariablesForSearchInput.medicine);
     await page.click(makePrescriptionConsultationPageElements.option);
-
+    //xx//
 });
